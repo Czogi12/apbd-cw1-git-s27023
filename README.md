@@ -6,3 +6,5 @@ StatisticsHelper.cs | 10 ++++++++++
 1 file changed, 10 insertions(+)
 
 fast merge nie zostało wykonane, ponieważ main został zaaktualizowany po utworzeniu gałęzi feature-max.
+
+REBASE MAIN MODIFICATION
