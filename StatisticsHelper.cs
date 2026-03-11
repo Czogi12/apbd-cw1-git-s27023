@@ -18,12 +18,12 @@ public class StatisticsHelper {
     }
 
         public int CalculateMin(int[] values) {
-        int mini = int.MaxValue;
+        int min = int.MaxValue;
 
         foreach (int value in values) {
-            if (mini > value) mini = value;
+            if (min > value) min = value;
         }
 
-        return mini;
+        return min;
     }
 }
