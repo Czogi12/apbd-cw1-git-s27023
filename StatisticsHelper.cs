@@ -6,4 +6,14 @@ public class StatisticsHelper {
         }
         return sum / values.Length;
     }
+
+    public int CalculateMax(int[] values) {
+        int max = int.MinValue;
+
+        foreach (int value in values) {
+            if (max < value) max = value;
+        }
+
+        return max;
+    }
 }
