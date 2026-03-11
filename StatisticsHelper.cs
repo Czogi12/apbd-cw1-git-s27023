@@ -16,4 +16,14 @@ public class StatisticsHelper {
 
         return max;
     }
+
+        public int CalculateMin(int[] values) {
+        int min = int.MaxValue;
+
+        foreach (int value in values) {
+            if (min > value) min = value;
+        }
+
+        return min;
+    }
 }
