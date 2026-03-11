@@ -1,4 +1,4 @@
-﻿Console.WriteLine(StringHelper.toUpperCase("Hello, World!"));
+﻿Console.WriteLine(StringHelper.toUpperCase("Hello, World!!!"));
 
 
 StatisticsHelper statisticsHelper = new StatisticsHelper();
